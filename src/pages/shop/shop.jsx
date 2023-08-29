@@ -1,5 +1,12 @@
 import React from "react";
 
 export const Shop = () => {
-    return <div><h1>Shop</h1></div>
+    return <div className="shopPage">
+        <div className="shopHeader">
+            <h1>LowLimit</h1>
+        </div>
+        <div className="productList">
+
+        </div>
+    </div>
 };
