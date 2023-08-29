@@ -6,8 +6,8 @@ export default function Navbar(){
     return (
         <div className="navigation">
             <div className="links">
-                <Link className="navLinkShop" to='/'>Shop</Link>
-                <Link className="navLinkCart" to='/cart'>Cart</Link>
+                <Link  to='/'>Shop</Link>
+                <Link  to='/cart'>Cart</Link>
             </div>
         </div>
     )
