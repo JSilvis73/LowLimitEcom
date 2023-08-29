@@ -1,0 +1,19 @@
+.shopHeader {
+    width: 100%;
+    text-align: center;
+}
+
+.productList {
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 1rem;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}

@@ -6,7 +6,7 @@ export const Product = (props) => {
         <div className="product">
            <h2>{name}</h2>
            <p>${price}</p>
-           <img src={image} height='100px' />
+           <img src={image} height='150px' width='150px' />
         </div>
     )
 }
