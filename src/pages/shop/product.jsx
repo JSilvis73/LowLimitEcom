@@ -27,7 +27,9 @@ export const Product = (props) => {
     }
 
     const {id, name, price, image} = props.data;
- const cartItemAmount = cartItems[id];
+    
+    // This is to tell how many of a specific item is in the cart.
+    const cartItemAmount = cartItems[id];
   
 
     return (
