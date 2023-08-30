@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
+import { ShopContext } from "../../context/shopContext";
 
 
 export const Product = (props) => {
@@ -24,9 +25,9 @@ export const Product = (props) => {
         }
     }
 
-
-
     const {id, name, price, image} = props.data;
+
+    const {addToCart} = useContext(ShopContext);
 
     return (
         <div className="product">
@@ -34,7 +35,7 @@ export const Product = (props) => {
            <img src={image} height='150px' width='150px' />
            <h2>{name}</h2>
            <p>${price}</p>
-           <button className="addToCartBttn" style={{backgroundColor: isHighlight ? 'grey' : null}} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} name="productButton">Add to Cart</button>
+           <button className="addToCartBttn" style={{backgroundColor: isHighlight ? 'grey' : null}} onClick={() => addToCart(id)} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} name="productButton">Add to Cart</button>
         </div>
     )
 }
