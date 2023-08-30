@@ -30,11 +30,11 @@ export const Product = (props) => {
 
     return (
         <div className="product">
-            
+
            <img src={image} height='150px' width='150px' />
            <h2>{name}</h2>
            <p>${price}</p>
-           <button className="productButton" style={{backgroundColor: isHighlight ? 'grey' : null}} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} name="productButton">Add to Cart</button>
+           <button className="addToCartBttn" style={{backgroundColor: isHighlight ? 'grey' : null}} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} name="productButton">Add to Cart</button>
         </div>
     )
 }
