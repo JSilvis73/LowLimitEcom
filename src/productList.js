@@ -12,26 +12,20 @@ export const productList = [
         price: 999.99,
         image: laptop
     }, 
-    // {
-    //     id:2,
-    //     name: 'Laptop2',
-    //     price: 799.99,
-    //     image: laptop2
-    // },
     {
-        id:3,
+        id:2,
         name: 'IPhone',
         price: 850.00,
         image: iphone
     },
     {
-        id:4,
+        id:3,
         name: 'Canon EOS Camera',
         price: 99.00,
         image: camera
     },
     {
-        id:5,
+        id:4,
         name: 'Adult Suit (Gray)',
         price: 79.99,
         image: greySuit
