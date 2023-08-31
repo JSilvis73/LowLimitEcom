@@ -6,8 +6,8 @@ import { CartItem } from "./cart-item";
 export const Cart = () => {
 const {cartItems} = useContext(ShopContext);
 
-    return <div>
-        <h1 className="cart">
+    return <div
+         className="cart">
             <div className="cartHeader">
                 <h1>Your Cart Items:</h1>
             </div>
@@ -18,6 +18,11 @@ const {cartItems} = useContext(ShopContext);
                     }
                 })}
             </div>
-        </h1>
+        
+        <div className="checkout">
+            <p>Subtotal: ${}</p>
+            <button>Continue Shopping</button>
+            <button>Checkout</button>
+        </div>
     </div>
 }
