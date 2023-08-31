@@ -42,7 +42,7 @@ export const ShopContextProvider = (props) => {
     };
 
     //Creating a value to pass out of component.
-    const contextValue = {cartItems, addToCart, removeFromCart, updateCountCartItem};
+    const contextValue = {cartItems, addToCart, removeFromCart, updateCountCartItem, getTotalAmount};
 
     console.log(cartItems);
 
