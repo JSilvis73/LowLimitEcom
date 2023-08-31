@@ -29,6 +29,18 @@ export const ShopContextProvider = (props) => {
         setCartItems((prev) => ({...prev, [itemId]: newAmount}))
     }
 
+    // Calculate totalAmount from items in cart.
+    const getTotalAmount = () => {
+        let totalAmount = 0;
+       for (const item in cartItems){
+        if (cartItems[item] > 0) {
+            let itemInfo = productList.find((product) => product.id===Number(item));
+            totalAmount += cartItems[item] * itemInfo.price;
+        }
+       }
+       return totalAmount;
+    };
+
     //Creating a value to pass out of component.
     const contextValue = {cartItems, addToCart, removeFromCart, updateCountCartItem};
 
