@@ -25,8 +25,12 @@ export const ShopContextProvider = (props) => {
         setCartItems((prev) => ({...prev, [itemId]: prev[itemId] - 1}));
     }
 
+    const updateCountCartItem = (newAmount, itemId) => {
+        setCartItems((prev) => ({...prev, [itemId]: newAmount}))
+    }
+
     //Creating a value to pass out of component.
-    const contextValue = {cartItems, addToCart, removeFromCart};
+    const contextValue = {cartItems, addToCart, removeFromCart, updateCountCartItem};
 
     console.log(cartItems);
 
