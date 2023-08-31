@@ -5,19 +5,32 @@
 
 .productList {
     height: auto;
-    width: 100%;
+    width: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 1rem;
+    gap: 1.5rem;
 }
 
 .product {
+    height: 100;
+    width: 25vw;
+
+
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
+
+    margin-bottom: 1.5rem;
+
+    border: 3px solid greenyellow;
+    background-color: whitesmoke;
+    border-radius: 15px;
 }
 
 .addToCartBttn {
     border-radius: 15px;
+
+    margin: 1rem;
 }

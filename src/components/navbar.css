@@ -16,14 +16,13 @@
 }
 
 .links a {
-    margin-left: 1rem;
-    margin: .5rem;
+    margin: 1rem;
     display: flex;
 }
 
 .navigation :first-child {
     margin-right: auto;
-    margin-left: .5rem;
+    margin-left: 1rem;
     display: flex;
     
 }
