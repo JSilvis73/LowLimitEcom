@@ -1,7 +1,9 @@
-import React from "react";
+import React, {useContext} from "react";
+import { ShopContext } from "../../context/shopContext";
 
 export const CartItem = (props) => {
     const { id, name, price, image} = props.data;
+    const {cartItems} = useContext(ShopContext);
 
     return (
         <div className="cartItem">
@@ -9,6 +11,11 @@ export const CartItem = (props) => {
             <div className="descProduct">
                 <h3>{name}</h3>
                 <p>${price}</p>
+                <div className="handleCount">
+                    <button>-</button>
+                    <input value={cartItems[id]}/>
+                    <button>+</button>
+                </div>
             </div>
         </div>
     )
