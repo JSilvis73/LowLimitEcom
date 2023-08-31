@@ -34,11 +34,12 @@ export const Product = (props) => {
 
     return (
         <div className="product">
-
+            <button className="productItemBttn">
            <img src={image} height='80%' width='80%' />
            <h2>{name}</h2>
            <p>${price}</p>
            <button className="addToCartBttn" style={{backgroundColor: isHighlight ? 'grey' : null}} onClick={() => addToCart(id)} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} name="productButton">Add to Cart {cartItemAmount > 0 && <>({cartItemAmount})</>}</button>
+           </button>
         </div>
     )
 }

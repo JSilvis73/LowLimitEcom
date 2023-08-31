@@ -9,7 +9,7 @@ export const productList = [
     {
         id:1,
         name: 'Laptop',
-        price: 999.99,
+        price: 999.00,
         image: laptop
     }, 
     {
@@ -27,7 +27,7 @@ export const productList = [
     {
         id:4,
         name: 'Adult Suit (Gray)',
-        price: 79.99,
+        price: 78.00,
         image: greySuit
 
     }
