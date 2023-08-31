@@ -6,7 +6,7 @@ import { Product } from "./product";
 export const Shop = () => {
     return <div className="shopPage">
         <div className="shopHeader">
-            <h1>LowLimit</h1>
+            <h1>Shop</h1>
         </div>
         <div className="productListDisplay">
             <div className="productList">

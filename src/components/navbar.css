@@ -1,16 +1,17 @@
 .navigation {
     height: 4vh;
     width: 100%;
+
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    align-items: center;
+
     color: whitesmoke;
     background-color: black;
 }
 
 .links {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -18,4 +19,11 @@
     margin-left: 1rem;
     margin: .5rem;
     display: flex;
+}
+
+.navigation :first-child {
+    margin-right: auto;
+    margin-left: .5rem;
+    display: flex;
+    
 }
