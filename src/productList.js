@@ -3,6 +3,7 @@ import laptop from './assets/laptop.png';
 import camera from './assets/camera.png';
 import greySuit from './assets/greySuit.png';
 import laptop2 from './assets/laptop2.jpg';
+import keyboard from './assets/keyboard.png'
 
 
 export const productList = [
@@ -26,6 +27,13 @@ export const productList = [
     },
     {
         id:4,
+        name: 'Keyboard' ,
+        price:19.00,
+        image: keyboard
+
+    },
+    {
+        id:5,
         name: 'Adult Suit (Gray)',
         price: 78.00,
         image: greySuit
