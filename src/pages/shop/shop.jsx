@@ -8,13 +8,13 @@ export const Shop = () => {
         <div className="shopHeader">
             <h1>Shop</h1>
         </div>
-        <div className="productListDisplay">
+        
             <div className="productList">
                 {productList.map((product) => <Product 
                 data={product}
                 />)}
             </div>
 
-        </div>
+       
     </div>
 };
