@@ -4,6 +4,7 @@ import camera from './assets/camera.png';
 import greySuit from './assets/greySuit.png';
 import laptop2 from './assets/laptop2.jpg';
 import keyboard from './assets/keyboard.png'
+import mic from './assets/mic.png';
 
 
 export const productList = [
@@ -31,9 +32,17 @@ export const productList = [
         price:19.00,
         image: keyboard
 
-    },
-    {
+    },  
+     {
         id:5,
+        name: 'Microphone' ,
+        price:39.00,
+        image: mic
+
+    }
+    ,
+    {
+        id:6,
         name: 'Adult Suit (Gray)',
         price: 78.00,
         image: greySuit
