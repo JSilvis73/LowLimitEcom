@@ -25,7 +25,7 @@ export default function Navbar(){
 
     return (
         <div className="navigation">
-             <h3 className="navHeader" style={{color: 'greenyellow'}}>LowLimit</h3>
+             <h3 className="navHeader" style={{color: 'yellowgreen'}}>LowLimit</h3>
             <div className="links">
                
                 <Link onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} style={{color: isHovered? 'white' : ''}} to='/'>Shop</Link>
