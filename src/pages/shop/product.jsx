@@ -6,6 +6,7 @@ export const Product = (props) => {
     const [isHovered, setIsHovered] = useState(false);
     const {addToCart, cartItems} = useContext(ShopContext);
 
+    // Handle highlighting of text/buttons
     const handleMouseOver = () => {
             setIsHovered(true);
     }
