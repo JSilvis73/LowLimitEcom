@@ -4,6 +4,7 @@ import { productList } from "../../productList";
 import { Product } from "./product";
 import {Footer} from '../../components/footer';
 
+
 export const Shop = () => {
     return <div className="shopPage">
         <div className="shopHeader">
