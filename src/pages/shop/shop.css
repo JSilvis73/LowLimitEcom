@@ -45,3 +45,11 @@
     text-align: center;
     margin-top: 80%;
 }
+
+.element-to-scale {
+    transition: transform 0.3s ease; /* Add a smooth transition for a smoother effect */
+  }
+  
+  .element-to-scale:hover {
+    transform: scale(1.15); /* Increase the scale factor to make it bigger */
+  }

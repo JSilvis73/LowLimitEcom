@@ -23,7 +23,7 @@ export const Product = (props) => {
 
     return (
         <div className="product">
-            <button className="productItemBttn">
+            <button className="productItemBttn element-to-scale" >
            <img  className="productImg" src={image} />
            <h2>{name}</h2>
            <p>${price}</p>

@@ -21,7 +21,7 @@ export const CartIcon = () => {
     return (
         <div>
             <i className=""><ShoppingCart size={24}/></i>  
-            <span className="backGroundWhite alignColumnCenter textXSmall">{getTotalItemCount()}</span>
+            <span className="overColorBlack backGroundWhite alignColumnCenter textXSmall">{getTotalItemCount()}</span>
         </div>
 
     )

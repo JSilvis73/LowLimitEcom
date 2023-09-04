@@ -7,6 +7,10 @@
     background-color: antiquewhite; 
 }
 
+.hoverColorBlack {
+    color: black;
+}
+
 .alignColumnCenter {
     display: flex;
     flex-direction: column;
