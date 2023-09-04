@@ -29,7 +29,7 @@ const navigate = useNavigate();
             <p>Subtotal: ${totalAmount}</p>
             <div className="checkoutBttns"> 
             <button onClick={() => navigate('/')}>Continue Shopping</button>
-            <button>Checkout</button>
+            <button onClick={() => alert('Not available for demo! Thank you!')}>Checkout</button>
             </div>
         </div>
         ):(

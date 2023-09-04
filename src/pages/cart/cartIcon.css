@@ -1,0 +1,26 @@
+.backGroundWhite {
+    height:10px;
+    width: 10px;
+    padding: 1px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: antiquewhite; 
+}
+
+.alignColumnCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textXSmall {
+    font-size: x-small;
+}
+
+.noTextUnderline {
+    text-decoration:wavy;
+}
+a {
+    text-decoration: none;
+}
